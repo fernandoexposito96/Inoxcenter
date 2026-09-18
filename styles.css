@@ -38,3 +38,13 @@
 .nav button:nth-child(2) b::before{content:"📄";font-size:20px}
 .nav button:nth-child(3) b::before{content:"▥";font-size:24px}
 .nav button small{font-size:11px}
+
+/* Bottom navigation alignment — approved compact version */
+.nav{height:82px;grid-template-columns:repeat(4,minmax(0,1fr));align-items:start;padding:9px 8px max(7px,env(safe-area-inset-bottom))}
+.nav button{height:58px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;gap:4px;padding:0;line-height:1}
+.nav button b{width:22px;height:24px;display:flex;align-items:center;justify-content:center;margin:0;font-size:0}
+.nav button small{height:16px;display:flex;align-items:center;justify-content:center;font-size:10px;line-height:16px;white-space:nowrap;margin:0}
+.nav button:nth-child(1) b::before{font-size:21px}
+.nav button:nth-child(2) b::before{font-size:16px}
+.nav button:nth-child(3) b::before{font-size:19px}
+.nav button:nth-child(4) b::before{font-size:18px}
