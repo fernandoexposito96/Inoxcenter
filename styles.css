@@ -11,3 +11,30 @@
 .nav button b{font-size:0}
 .photoUpload span{display:flex;align-items:center;gap:7px}
 .photoUpload span::before{content:"+";width:20px;height:20px;border:2px solid currentColor;border-radius:50%;display:grid;place-items:center;font-size:16px;line-height:1}
+
+/* Approved Inoxcenter home polish */
+.top{height:76px;background:linear-gradient(135deg,#07538b,#087cf0)}
+.top h1{font-size:0;line-height:1.05}
+.top h1::before{content:"Inoxcenter";display:block;font-size:20px;font-weight:800}
+.top h1::after{content:"Gestión de incidencias";display:block;font-size:11px;font-weight:400;opacity:.88;margin-top:5px}
+.welcome{padding-top:20px}
+.welcome h2{font-size:27px}
+.welcome>.primary{min-height:58px;font-size:19px;border-radius:11px}
+.stat{min-height:98px;display:flex;flex-direction:column;justify-content:center;align-items:center}
+.stat::before{display:block;font-size:23px;margin-bottom:2px}
+.stat.red::before{content:"📄"}
+.stat.amber::before{content:"◷";font-size:28px;font-weight:700}
+.stat.green::before{content:"✓";width:27px;height:27px;border-radius:50%;background:#079461;color:white;line-height:27px}
+.sectionhead h2{font-size:21px}
+.card{border-radius:16px}
+.inc{min-height:82px}
+.thumb:not(:has(img))::after{display:none}
+.thumb:not(:has(img))::before{font-size:30px;line-height:1}
+.card .inc:nth-child(1) .thumb:not(:has(img))::before{content:"💧"}
+.card .inc:nth-child(2) .thumb:not(:has(img))::before{content:"💡"}
+.card .inc:nth-child(3) .thumb:not(:has(img))::before{content:"🚪"}
+.card .inc:nth-child(4) .thumb:not(:has(img))::before{content:"📄"}
+.nav{padding-top:9px}
+.nav button:nth-child(2) b::before{content:"📄";font-size:20px}
+.nav button:nth-child(3) b::before{content:"▥";font-size:24px}
+.nav button small{font-size:11px}
